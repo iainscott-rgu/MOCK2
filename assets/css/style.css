@@ -61,3 +61,10 @@ footer>p{
     margin-top: 75px;
     margin-bottom: 75px;
 }
+
+#title{
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
