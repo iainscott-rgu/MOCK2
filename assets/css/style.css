@@ -68,3 +68,11 @@ footer>p{
     -khtml-border-radius: 5px;
     border-radius: 5px;
 }
+
+#blank{
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    background-color: orange;
+}
