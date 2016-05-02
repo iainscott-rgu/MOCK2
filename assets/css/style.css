@@ -27,3 +27,9 @@ header>h6{
     margin-left: auto;
     border: solid 1px;
 }
+
+.grid-100{
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px;
+}
