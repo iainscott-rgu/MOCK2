@@ -33,3 +33,7 @@ header>h6{
     margin-left: auto;
     border: solid 1px;
 }
+
+footer>p{
+    text-align: center;
+}
