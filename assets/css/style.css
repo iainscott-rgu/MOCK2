@@ -26,7 +26,6 @@ header>h6{
     margin-right: auto;
     margin-left: auto;
     border: solid 1px;
-    align-content: center;
 }
 
 .grid-100{
@@ -37,6 +36,11 @@ header>h6{
 
 #logo, #logo2, #logo3, #logo4{
     width: 425px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+
 }
 
 footer>p{
@@ -44,5 +48,9 @@ footer>p{
 }
 
 #logo5{
-    width: 850px;
+    width: 860px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
 }
