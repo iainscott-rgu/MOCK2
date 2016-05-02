@@ -8,11 +8,13 @@ body{
 header>h1{
     font-size: 45px;
     display: inline;
+    margin-left: 30px;
 }
 
 header>h6{
     font-size: 20px;
     display: inline;
+    margin-left: 30px;
 }
 
 .grid-container{
@@ -38,7 +40,6 @@ header>h6{
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
     border-radius: 10px;
-
 }
 
 footer>p{
@@ -46,7 +47,7 @@ footer>p{
 }
 
 #logo5{
-    width: 912px;
+    width: 913px;
     -moz-border-radius:10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
