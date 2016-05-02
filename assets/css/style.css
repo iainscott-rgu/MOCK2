@@ -35,7 +35,8 @@ header>h6{
 }
 
 #logo, #logo2, #logo3, #logo4{
-    width: 400px;
+    width: 420px;
+    align-content: center;
 }
 
 footer>p{
