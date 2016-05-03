@@ -25,6 +25,7 @@
                     <option value="technology" name="technology">technology</option>
                 </select></td></tr>
         <tr><td><label for="submittor">submittor:</label></td><td><input type="text" name="submittor" id="submittor" size="30"></td></tr>
+        <tr><td colspan="2"><input type="submit" id="submit" value="submit"></td></tr>
     </table>
         </form>
 </main>
