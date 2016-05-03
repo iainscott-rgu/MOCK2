@@ -81,6 +81,12 @@ footer>p{
 
 #listcon3,#listcon5,#listcon7,#listcon9{
 
-    border: 1px;
+    /*border: 1px;*/
     background-color: orange;
+}
+
+.grid-75{
+
+    border: 1px;
+
 }

@@ -12,7 +12,7 @@
     <h1>newsbox: all news</h1><br>
     <h6>all the news in a box</h6>
 </header>
-<main class="grid-container2">
+<main class="grid-container">
     <section class="grid-100" id="listcon1">
 
     </section>
