@@ -21,7 +21,7 @@
         <a href="list.php?category=politics"><img src="assets/image/logo2.png" id="logo2"></a>
     </section>
     <section class="grid-50" id="cont3">
-        <a href="list.php?category=sports"><img src="assets/image/logo3.png" id="logo3"></a>
+        <a href="list.php?category=sport"><img src="assets/image/logo3.png" id="logo3"></a>
     </section>
     <section class="grid-50" id="cont4">
         <a href="list.php?category=technology"><img src="assets/image/logo4.png" id="logo4"></a>
