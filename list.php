@@ -25,7 +25,7 @@ if(isset($_GET['category'])){
     $sql = "SELECT * FROM news_item WHERE category = '$news_itemCategory'";
 }
 else{
-    echo "<p><h5>Category: all news </h5></p>
+    echo "<p><h5>Category: All News </h5></p>
 <section class='grid-100' id='listcon1'>
 
     </section>";
