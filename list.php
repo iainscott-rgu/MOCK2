@@ -17,11 +17,18 @@
 include("connection.php");
 if(isset($_GET['category'])){
     $news_itemCategory = $_GET['category'];
-    echo "category {$news_itemCategory}";
+    echo "<p>category {$news_itemCategory} </p>
+
+<section class='grid-100' id='listcon1'>
+
+    </section>";
     $sql = "SELECT * FROM news_item WHERE category = '$news_itemCategory'";
 }
 else{
-    echo "category all news";
+    echo "<p>category all news </p>
+<section class='grid-100' id='listcon1'>
+
+    </section>";
     $sql = "SELECT * FROM news_item";
 }
 $result = $db->query($sql);
@@ -32,9 +39,7 @@ while ($row = $result->fetch_array()) {
     $category = $row['category'];
     echo "
 <main class='grid-container'>
-    <section class='grid-100' id='listcon1'>
 
-    </section>
     <section class='grid-20' id='listcon2'>
 Title:
     </section>
