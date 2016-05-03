@@ -29,7 +29,6 @@ header>h6{
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 10px;
-    border: 1px;
 }
 
 .grid-100{
@@ -82,12 +81,12 @@ footer>p{
 
 #listcon3,#listcon5,#listcon7,#listcon9{
 
-    /*border: 1px;*/
-    /*background-color: orange;*/
+    border: solid 1px;
+    background-color: orange;
 }
-
+/*
 .grid-75{
 
     border: 1px;
 
-}
+}*/
