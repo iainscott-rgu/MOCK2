@@ -41,7 +41,7 @@ Submittor:
         title
     </section>
     <section class="grid-40" id="listcon10">
-        title
+
     </section>
     <section class="grid-100" id="listcon11">
     </section>
