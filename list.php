@@ -20,25 +20,25 @@
 Title:
     </section>
     <section class="grid-80" id="listcon3">
-        title
+        Here is a title
     </section>
     <section class="grid-20" id="listcon4">
 Link:
     </section>
     <section class="grid-80" id="listcon5">
-        title
+        Here is a link
     </section>
     <section class="grid-20" id="listcon6">
 Summary:
     </section>
     <section class="grid-80" id="listcon7">
-        title
+        Here is a summary<p>Here is a paragraph.... blah blah blah</p>
     </section>
     <section class="grid-20" id="listcon8">
 Submittor:
     </section>
     <section class="grid-40" id="listcon9">
-        title
+        Iain Scott
     </section>
     <section class="grid-40" id="listcon10">
 
