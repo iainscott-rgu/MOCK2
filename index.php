@@ -1,7 +1,38 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Iain
- * Date: 02/05/2016
- * Time: 23:18
- */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NEWSBOX: all the news in a box</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/unsemantic-grid-responsive-tablet.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+</head>
+<body>
+<header>
+    <h1>newsbox</h1><br>
+    <h6>all the news in a box</h6>
+</header>
+<main class="grid-container">
+    <section class="grid-50" id=“cont1”>
+        <a href="list.php"><img src="assets/image/logo.png" id="logo"></a>
+    </section>
+    <section class="grid-50" id="cont2">
+        <a href="list.php"><img src="assets/image/logo2.png" id="logo2"></a>
+    </section>
+    <section class="grid-50" id="cont3">
+        <a href="list.php"><img src="assets/image/logo3.png" id="logo3"></a>
+    </section>
+    <section class="grid-50" id="cont4">
+        <a href="list.php"><img src="assets/image/logo4.png" id="logo4"></a>
+    </section>
+    <section class="grid-100" id="cont5">
+        <a href="add.php"><img src="assets/image/logo5.png" id="logo5"></a>
+    </section>
+</main>
+<footer>
+    <p>Designed by Iain Scott 2016</p>
+
+</footer>
+</body>
+</html>
