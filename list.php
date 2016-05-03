@@ -16,17 +16,29 @@
     <section class="grid-100" id="listcon1">
 
     </section>
-    <section class="grid-100" id="listcon2">
+    <section class="grid-25" id="listcon2">
 title
     </section>
-    <section class="grid-100" id="listcon3">
+    <section class="grid-75" id="listcon2">
+        title
+    </section>
+    <section class="grid-25" id="listcon3">
 link
     </section>
-    <section class="grid-100" id="listcon4">
-ummary
+    <section class="grid-75" id="listcon2">
+        title
     </section>
-    <section class="grid-100" id="listcon5">
+    <section class="grid-25" id="listcon4">
+summary
+    </section>
+    <section class="grid-75" id="listcon2">
+        title
+    </section>
+    <section class="grid-25" id="listcon5">
 submittor
+    </section>
+    <section class="grid-75" id="listcon2">
+        title
     </section>
     <section class="grid-100" id="listcon6">
     </section>
