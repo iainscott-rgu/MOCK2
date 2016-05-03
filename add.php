@@ -13,6 +13,7 @@
     <h6>all the news in a box</h6>
 </header>
 <main>
+    <form action="insert.php" method="post">
     <table class="form_add">
         <tr><td><label for="title">title:</label></td><td><input type="text" name="title" id="title" size="30" required></td></tr>
         <tr><td><label for="link">link:</label></td><td><input type="text" name="link" id="link" size="30" required></td></tr>
@@ -25,6 +26,7 @@
                 </select></td></tr>
         <tr><td><label for="submittor">submittor:</label></td><td><input type="text" name="submittor" id="submittor" size="30"></td></tr>
     </table>
+        </form>
 </main>
 <footer>
     <p>Designed by Iain Scott 2016</p>
