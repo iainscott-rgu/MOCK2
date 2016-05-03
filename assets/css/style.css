@@ -82,7 +82,11 @@ footer>p{
 #listcon3,#listcon5,#listcon7,#listcon9{
 
     border: solid 1px;
-    background-color: orange;
+    background-color: lemonchiffon;
+    -moz-border-radius:5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
 }
 /*
 .grid-75{
