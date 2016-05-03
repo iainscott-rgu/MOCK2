@@ -17,30 +17,33 @@
 
     </section>
     <section class="grid-20" id="listcon2">
-title:
+Title:
     </section>
     <section class="grid-80" id="listcon3">
         title
     </section>
     <section class="grid-20" id="listcon4">
-link
+Link:
     </section>
     <section class="grid-80" id="listcon5">
         title
     </section>
     <section class="grid-20" id="listcon6">
-summary
+Summary:
     </section>
     <section class="grid-80" id="listcon7">
         title
     </section>
     <section class="grid-20" id="listcon8">
-submittor
+Submittor:
     </section>
-    <section class="grid-80" id="listcon9">
+    <section class="grid-40" id="listcon9">
         title
     </section>
-    <section class="grid-100" id="listcon10">
+    <section class="grid-40" id="listcon10">
+        title
+    </section>
+    <section class="grid-100" id="listcon11">
     </section>
 </main>
 <footer>
