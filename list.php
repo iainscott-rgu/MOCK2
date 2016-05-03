@@ -12,40 +12,63 @@
     <h1>newsbox: all news</h1><br>
     <h6>all the news in a box</h6>
 </header>
-<main class="grid-container">
-    <section class="grid-100" id="listcon1">
+
+<?php
+include("connection.php");
+if(isset($_GET['category'])){
+    $news_itemCategory = $_GET['category'];
+    echo "category {$news_itemCategory}";
+    $sql = "SELECT * FROM news_item WHERE category = '$news_itemCategory'";
+}
+else{
+    echo "category all news";
+    $sql = "SELECT * FROM news_item";
+}
+$result = $db->query($sql);
+while ($row = $result->fetch_array()) {
+    $title = $row['title'];
+    $link = $row['link'];
+    $summary = $row['summary'];
+    $category = $row['category'];
+    echo "
+<main class='grid-container'>
+    <section class='grid-100' id='listcon1'>
 
     </section>
-    <section class="grid-20" id="listcon2">
+    <section class='grid-20' id='listcon2'>
 Title:
     </section>
-    <section class="grid-80" id="listcon3">
-        Here is a title
+    <section class='grid-80' id='listcon3'>
+        '{$title}'
     </section>
-    <section class="grid-20" id="listcon4">
+    <section class='grid-20' id='listcon4'>
 Link:
     </section>
-    <section class="grid-80" id="listcon5">
-        Here is a link
+    <section class='grid-80' id='listcon5'>
+        '{$link}'
     </section>
-    <section class="grid-20" id="listcon6">
+    <section class='grid-20' id='listcon6'>
 Summary:
     </section>
-    <section class="grid-80" id="listcon7">
-        Here is a summary<p>Here is a paragraph.... blah blah blah</p>
+    <section class='grid-80' id='listcon7'>
+        '{$summary}'
     </section>
-    <section class="grid-20" id="listcon8">
-Submittor:
+    <section class='grid-20' id='listcon8'>
+Category:
     </section>
-    <section class="grid-40" id="listcon9">
-        Iain Scott
+    <section class='grid-40' id='listcon9'>
+        '{$category}'
     </section>
-    <section class="grid-40" id="listcon10">
+    <section class='grid-40' id='listcon10'>
 
     </section>
-    <section class="grid-100" id="listcon11">
+    <section class='grid-100' id='listcon11'>
     </section>
 </main>
+";
+}
+?>
+
 <footer>
     <p>Designed by Iain Scott 2016</p>
 </footer>
