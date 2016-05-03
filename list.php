@@ -17,7 +17,7 @@
 include("connection.php");
 if(isset($_GET['category'])){
     $news_itemCategory = $_GET['category'];
-    echo "<p>category {$news_itemCategory} </p>
+    echo "<p><h5>Category: {$news_itemCategory} </h5></p>
 
 <section class='grid-100' id='listcon1'>
 
@@ -25,7 +25,7 @@ if(isset($_GET['category'])){
     $sql = "SELECT * FROM news_item WHERE category = '$news_itemCategory'";
 }
 else{
-    echo "<p>category all news </p>
+    echo "<p><h5>Category: all news </h5></p>
 <section class='grid-100' id='listcon1'>
 
     </section>";
