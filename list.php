@@ -44,7 +44,7 @@ while ($row = $result->fetch_array()) {
 Title:
     </section>
     <section class='grid-80' id='listcon3'>
-        '{$title}'
+        {$title}
     </section>
     <section class='grid-20' id='listcon4'>
 Link:
