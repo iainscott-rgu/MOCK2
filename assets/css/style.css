@@ -93,3 +93,7 @@ footer>p{
 h5{
     margin-left: 30px;
 }
+
+#submit{
+    float: right;
+}
