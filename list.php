@@ -50,19 +50,19 @@ Title:
 Link:
     </section>
     <section class='grid-80' id='listcon5'>
-        '{$link}'
+        {$link}
     </section>
     <section class='grid-20' id='listcon6'>
 Summary:
     </section>
     <section class='grid-80' id='listcon7'>
-        '{$summary}'
+        {$summary}
     </section>
     <section class='grid-20' id='listcon8'>
 Category:
     </section>
     <section class='grid-40' id='listcon9'>
-        '{$category}'
+        {$category}
     </section>
     <section class='grid-40' id='listcon10'>
 
